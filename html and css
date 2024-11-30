@@ -1,0 +1,36 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="AsterLak">
+    <meta name="description" content="Site about HTML & CSS">
+    <meta name="keywords" content="HTML, CSS, learning">
+    <link rel="stylesheet" href="css/main.css">
+    <title>HTML & CSS</title>
+</head>
+<body>
+    <div id="button-center">
+        <button class="button">Press start!</button>
+    </div>
+</body>
+</html>
+
+CSS: #button-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    height: 100px;
+    width: 200px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: center;
+    cursor: pointer;
+}
