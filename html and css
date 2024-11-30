@@ -18,7 +18,9 @@ HTML:
 </body>
 </html>
 
-CSS: #button-center {
+CSS:
+
+#button-center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,4 +35,10 @@ CSS: #button-center {
     border-radius: 5px;
     padding: center;
     cursor: pointer;
+    background-color: orange;
+    color: green;
+}
+
+a {
+    text-decoration: none;
 }
